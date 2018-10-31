@@ -12,26 +12,6 @@ header {
     padding-bottom: 30px;
     border: 10px solid #cccccc;
 }
-
-footer {
-    background-color: #666666;
-    padding-top: 2%;
-    padding-left: 120px;
-    padding-bottom: 30px;
-    margin-top: 5%;
-    
-}
-
-p, a {
-    color: #777777;
-}
-
-.about-me {
-    color: #4aaaa5;
-    padding-top: 20px;
-    padding-left: 20px;
-}
-
 .header-nav {
     display: block;
     float: right;
@@ -47,6 +27,33 @@ header .header-nav {
     margin-top: -55px;
 }
 
+
+footer {
+    background-color: #666666;
+    padding-top: 2%;
+    padding-left: 120px;
+    padding-bottom: 30px;
+    margin-top: 5%;
+    
+}
+
+#content {
+    width: 960px;
+    margin-left: 10%;
+}
+
+p, a {
+    color: #777777;
+}
+
+
+
+.about-me {
+    color: #4aaaa5;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
 #about-container {
     background-color: #ffffff;
     align-content: center;
@@ -55,18 +62,15 @@ header .header-nav {
     margin-top: 5%;
 }
 
+.about-content {
+    padding-top: 1px;
+    padding-right: 5%;
+}
+
 img {
     width: 300px;
     float: left;
     padding: 20px;
 }
 
-#content {
-    width: 960px;
-    margin-left: 10%;
-}
 
-.about-content {
-    padding-top: 1px;
-    padding-right: 5%;
-}
