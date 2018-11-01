@@ -42,7 +42,8 @@ footer {
 
 #content {
     width: 960px;
-    margin-left: 10%;
+    position: relative;
+    left: 10%;
 }
 
 p, a {
