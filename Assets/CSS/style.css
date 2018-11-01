@@ -43,7 +43,7 @@ footer {
 #content {
     width: 960px;
     position: relative;
-    left: 10%;
+    padding-left: 12%;
 }
 
 p, a {
