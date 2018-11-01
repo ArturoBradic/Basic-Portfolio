@@ -1,3 +1,6 @@
+#header .name .header-nav header{
+    position: fixed;
+}
 .name {
     color: #ffffff;
     background-color: #4aaaa5;
@@ -8,9 +11,9 @@
 header {
     background-color: #ffffff;
     padding-top: 2%;
-    padding-left: 120px;
-    padding-bottom: 30px;
+    width: 100%;
     border: 10px solid #cccccc;
+
 }
 .header-nav {
     display: block;
@@ -31,9 +34,9 @@ header .header-nav {
 footer {
     background-color: #666666;
     padding-top: 2%;
-    padding-left: 120px;
-    padding-bottom: 30px;
+    width: 100%;
     margin-top: 5%;
+    margin-bottom: 0;
     
 }
 
