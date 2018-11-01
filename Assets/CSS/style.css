@@ -1,9 +1,10 @@
 #header .name .header-nav header{
     position: fixed;
+    top: 0;
 }
 .name {
     background-color: #4aaaa5;
-    color: #fffffff;
+    color: #ffffff;
     float: left;
     padding: 30px 30px 35px 30px;
     margin: -1px 0px 0px 0px;
@@ -42,10 +43,12 @@ header {
 
 footer {
     background-color: #666666;
-    padding-top: 2%;
-    width: 100%;
+    padding-top: 30px;
+    width: 99%;
     margin-top: 5%;
     margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
     
 }
 
