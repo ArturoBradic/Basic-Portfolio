@@ -45,7 +45,7 @@ footer {
     background-color: #666666;
     padding-top: 30px;
     width: 99%;
-    margin-top: 5%;
+    border-top: 5px solid #4aaaa5;
     margin-bottom: 0;
     position: fixed;
     bottom: 0;
@@ -58,13 +58,12 @@ footer {
     padding-left: 12%;
     padding-right: 12%;
     display: block;
+    margin-bottom: 20px;
 }
 
 p, a {
     color: #777777;
 }
-
-
 
 .about-me {
     color: #4aaaa5;
@@ -78,6 +77,7 @@ p, a {
     padding-bottom: 30%;
     border: 10px solid #cccccc;
     margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .about-content {
@@ -101,4 +101,36 @@ body {
     Display: block;
     Clear: both;
         }
+
+label {
+    position: relative;
+    left: 20px;
+}
         
+.btn  {
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    left: 20px;
+    padding: 10px;
+    width: 100px;
+}
+
+input {
+    width: 75%;
+    position: relative;
+    left: 20px;
+    height: 20px;
+}
+
+textarea { 
+    width: 75%;
+    position: relative;
+    left: 20px;
+}
+
+.portfolio-photos {
+    width: 200px;
+}
+
+
