@@ -22,6 +22,9 @@ header {
     padding: 1px;
 
 }
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
 .header-nav {
     display: block;
     float: right;
@@ -63,6 +66,7 @@ footer {
 
 p, a {
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .about-me {
@@ -96,15 +100,11 @@ body {
     background-image: url("Assets/Images/escherdark.png")
     }
 
-#content:: after { 
-    Content: “”;
-    Display: block;
-    Clear: both;
-        }
-
 label {
     position: relative;
     left: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
 }
         
 .btn  {
@@ -114,6 +114,7 @@ label {
     left: 20px;
     padding: 10px;
     width: 100px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 input {
